@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="33746" started-at="2020-09-19T09:37:18Z" finished-at="2020-09-19T09:37:52Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="33746" started-at="2020-09-19T09:37:18Z" finished-at="2020-09-19T09:37:52Z">
+      <class name="IDBC.Frames.HomePage">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:IDBC.Frames.HomePage@550ee7e5]" name="openBrowser" is-config="true" duration-ms="5168" started-at="2020-09-19T15:07:18Z" finished-at="2020-09-19T15:07:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="basePageNavigation()[pri:0, instance:IDBC.Frames.HomePage@550ee7e5]" name="basePageNavigation" duration-ms="4131" started-at="2020-09-19T15:07:23Z" finished-at="2020-09-19T15:07:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:IDBC.Frames.HomePage@550ee7e5]" name="closeBrowser" is-config="true" duration-ms="727" started-at="2020-09-19T15:07:28Z" finished-at="2020-09-19T15:07:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- IDBC.Frames.HomePage -->
+      <class name="IDBC.Frames.Register">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:IDBC.Frames.Register@2fd1433e]" name="openBrowser" is-config="true" duration-ms="3447" started-at="2020-09-19T15:07:28Z" finished-at="2020-09-19T15:07:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="registerAccount()[pri:0, instance:IDBC.Frames.Register@2fd1433e]" name="registerAccount" duration-ms="19388" started-at="2020-09-19T15:07:32Z" finished-at="2020-09-19T15:07:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerAccount -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:IDBC.Frames.Register@2fd1433e]" name="closeBrowser" is-config="true" duration-ms="865" started-at="2020-09-19T15:07:51Z" finished-at="2020-09-19T15:07:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- IDBC.Frames.Register -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
